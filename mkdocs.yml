@@ -1,0 +1,86 @@
+site_name: His Jeweled Dancefloor
+copyright: © 2019 Ryan Daugherty all rights reserved
+theme:
+  name: material
+  custom_dir: 'docs/theme'
+  font:
+    text: 'Noto Serif'
+    code: 'Ubuntu Mono'
+  palette:
+    primary: 'indigo'
+  logo:
+    icon: 'favorite_border'  
+  feature:
+    tabs: true
+  
+  
+pages:
+
+- Poems: 
+    - Kingdom Building: index.md
+    - Blazing Around the Room: BlazingAroundTheRoom.md
+    - Light Lock: LightLock.md
+    - No Secret: NoSecret.md
+    - Angel in Training: AngelInTraining.md
+    - Golden Letters: GoldenLetters.md
+    - One Petal: OnePetal.md
+    - Your Worst Enemy: yourworstenemy.md
+    - Church: Church.md
+    - Keep it Like a Secret: KeepItLikeaSecret.md
+    - Second Coming: SecondComing.md
+    - I Dig: IDig.md
+    - A Cart for the Moon: ACartForTheMoon.md
+    - My Friend the Night: MyFriendTheNight.md
+    - Envisioned Into Love: EnvisionedIntoLove.md   
+    - Intelligent One: IntelligentOne.md
+    - Warehouse: Warehouse.md    
+    - Costumes: Costumes.md
+    - Reciprocating: reciprocating.md
+    - Beloved River of Many Gems: BelovedRiverOfManyGems.md    
+    - The Rest of Eternity: TheRestOfEternity.md
+    - Depression: Depression.md 
+    - Womanly Golden Cord: WomanlyGoldenCord.md
+    - The Doorway: TheDoorway.md
+    - Jackasses: Jackasses.md
+    - Gospel: Gospel.md
+    - First to Reveal Their Light: FirstToRevealTheirLight.md
+    - Unknow Thyself: UnknowThyself.md
+    - Radiant With Invitation: RadiantWithInvitation.md    
+    - Passengers: Passengers.md
+    - Something Delicious: SomethingDelicious.md      
+    - A Perfect Question: APerfectQuestion.md
+    - Soundtrack: Soundtrack.md 
+    - Needle on the Record: NeedleOnTheRecord.md
+    - Gender Forward: GenderForward.md
+    - Everything Tree: EverythingTree.md
+    - Sweet Name Purely: SweetNamePurely.md
+    - Now That the Friend is Near: NowThatTheFriendIsNear.md
+    - Saxophone: Saxophone.md
+    - Seeds and Gems: SeedsAndGems.md
+    - Winnings: Winnings.md
+    - The Pearl: ThePearl.md
+- About:
+    - The Author: about.md
+    
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.escapeall: 
+      hardbreak: True
+      nbsp: True
+  - pymdownx.snippets
